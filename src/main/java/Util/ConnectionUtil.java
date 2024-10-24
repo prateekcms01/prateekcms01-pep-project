@@ -32,7 +32,8 @@ public class ConnectionUtil {
 	private static String password = "sa";
 
 	/**
-	 * DataSource for pooling. Pooling enables the creation of multiple connections when connections are closed.
+	 * DataSource for pooling. Pooling enables the creation of multiple connections
+	 * when connections are closed.
 	 */
 	private static JdbcDataSource pool = new JdbcDataSource();
 
